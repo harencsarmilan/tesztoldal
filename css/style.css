@@ -1,0 +1,121 @@
+body {
+    background: linear-gradient(135deg, #444444 0%, #1a1a1a 100%);
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    min-height: 100vh
+}   
+
+p {
+    color: gold;
+}
+
+header {
+    background: #212529; 
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 6px solid orange; 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.6);
+}
+
+header nav a {
+    color: orange;
+    text-decoration: underline dotted;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: yellow; 
+}
+
+caption {
+    color: lightyellow
+}
+
+#login {
+    background: #212529;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+article h2 {
+    color: gold;;
+    border-left: 5px solid orange;
+    padding-left: 15px;
+    text-transform: uppercase; 
+}
+
+iframe {
+    display: block;
+    margin: 30px auto;
+    border-radius: 30px;
+    border: 2px solid red; 
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: "‣ ";
+    color: gold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #212529;
+    color: orange;
+    margin-top: 50px;
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+strong {
+    color: gold;
+    text-shadow: 0 0 5px white; 
+}
+
+code {
+    background-color: #444;       /* Sötétszürke háttér, hogy elüssön a többitől */
+    color: #27f00d;              /* Bootstrap 'info' kék, vagy használd az 'orange'-ot */
+    padding: 2px 8px;            /* Egy kis hely a szöveg körül */
+    border-radius: 8px;          /* Itt történik a lekerekítés varázslata */
+    font-family: 'Courier New', Courier, monospace; /* Igazi programozó betűtípus */
+}
+
+.table {
+    background-color: #212529;
+    color: white;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 165, 0, 0.2);
+}
+
+thead th {
+    background-color: orange !important;
+    color: #212529 !important;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    padding: 15px !important;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.05); /* Nagyon halvány fehér réteg */
+}
+
+tbody tr:hover {
+    background-color: rgba(255, 165, 0, 0.1) !important; /* Narancssárga derengés, ha rámutatsz */
+    transition: background-color 0.3s ease;
+}
+
+td {
+    padding: 12px 15px !important;
+    vertical-align: middle;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
