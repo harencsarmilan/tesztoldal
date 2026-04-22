@@ -19,7 +19,7 @@
 
     <link rel="stylesheet" href="css/style.css">
 
-    <link rel="icon" type="image/x-icon" href="milubook.ico">
+    <link rel="icon" type="image/svg+xml" href="esvege.svg">
 </head>
 
 <body>
@@ -44,32 +44,33 @@
                 </form>
             </section>
 
-            <article>
-                <div class="row">
-                    <div class="col-md-6 mb-5 text-center">
-                        <h2>Miért érdemes engem felvenni?</h2>
-                        <p>Mert nem csak <code>div</code>-eket használok, hanem értem a szemantikát is.</p>
-                        <p>Meg amúgy ilyen <strong>fasza</strong> zenéket csinálok:</p>
+<section id="bemutatkozas">
+    <div class="row">
+        
+        <div class="col-md-6 mb-5 text-center">
+            <h2>Miért érdemes engem felvenni?</h2>
+            <p>Mert nem csak <code>div</code>-eket használok, hanem értem a szemantikát is.</p>
+            <p>Meg amúgy ilyen <strong>fasza</strong> zenéket csinálok:</p>
 
-                        <iframe id="YouTube-Bal" aria-label="Milu zenéje" title="Milu zenéje"
-                            style="width: 100%; max-width: 560px;" height="315"
-                            src="https://www.youtube.com/embed/r1g2sLysSMg?si=b4rNnANOFg-bWxx6" frameborder="0"
-                            allowfullscreen></iframe>
-                    </div>
+            <iframe id="YouTube-Bal" aria-label="Milu zenéje" title="Milu zenéje"
+                style="width: 100%; max-width: 560px;" height="315"
+                src="https://www.youtube.com/embed/r1g2sLysSMg?si=b4rNnANOFg-bWxx6" frameborder="0"
+                allowfullscreen></iframe>
+        </div>
+        
+        <div class="col-md-6 mb-5 text-center">
+            <h2>És a másik oldalról?</h2>
+            <p>Ez itt egy <strong>placeholder</strong> szöveg. Mert a HR-est két oldalról kell letámadni...</p>
+            <p>Egyébként ilyen videókat vágok:</p>
 
-                    <div class="col-md-6 mb-5 text-center">
-                        <h2>És a másik oldalról?</h2>
-                        <p>Ez itt egy <strong>placeholder</strong> szöveg. Mert a HR-est két oldalról kell letámadni...
-                        </p>
-                        <p>Egyébként ilyen videókat vágok:</p>
-
-                        <iframe id="Youtube-Jobb" aria-label="Milu videója" title="Milu videója"
-                            style="width: 100%; max-width: 560px;" height="315"
-                            src="https://www.youtube.com/embed/07I96GN0gZE?si=_VmtQdmA2FiPubdS" frameborder="0"
-                            allowfullscreen></iframe>
-                    </div>
-                </div>
-                <div class="row mb-4">
+            <iframe id="Youtube-Jobb" aria-label="Milu videója" title="Milu videója"
+                style="width: 100%; max-width: 560px;" height="315"
+                src="https://www.youtube.com/embed/07I96GN0gZE?si=_VmtQdmA2FiPubdS" frameborder="0"
+                allowfullscreen></iframe>
+        </div>
+        
+    </div> </section> <section id="skillek">
+    <div class="row mb-4">
                     <div class="col-md-6">
                         <h3 class="text-center">Technikai skillek</h3>
                         <div class="list-wrapper">
@@ -95,7 +96,7 @@
                         </div>
                     </div>
                 </div>
-            </article>
+            </section>
             <div class="table-responsive">
                 <table class="table table-striped table-hover mt-3 caption-top">
                     <caption>Heti Statisztikám</caption>
@@ -125,8 +126,9 @@
                     </tbody>
                 </table>
             </div>
-            <dialog id="siker-modal" class="p-4 border-0 rounded-4 shadow-lg text-center bg-dark text-warning">
-                <h3 class="mb-3">Sikeres Belépés! 🎉</h3>
+            <dialog id="siker-modal" aria-labelledby="siker-cim"
+                class="p-4 border-0 rounded-4 shadow-lg text-center bg-dark text-warning">
+                <h3 id="siker-cim" class="mb-3">Sikeres Belépés! 🎉</h3>
                 <p>Üdv a rendszerben, <span id="modal-nev-helye"></span>!</p>
                 <form method="dialog">
                     <button class="btn btn-outline-warning mt-3">Király, bezárás!</button>
